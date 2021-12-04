@@ -1,0 +1,31 @@
+{
+  "name": "whimsical-reddit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js",
+    "dev2": "nodemon --exec ts-node src/index.ts",
+    "start2": "ts-node src/index.ts",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnddiaz/whimsical-reddit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnddiaz/whimsical-reddit/issues"
+  },
+  "homepage": "https://github.com/johnddiaz/whimsical-reddit#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
